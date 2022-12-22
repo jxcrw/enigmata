@@ -43,7 +43,7 @@ def prep_file(prob_id: int) -> str:
 
     # Auto-open files/problem in IDE/browser
     cwd = os.getcwd()
-    twd = r'C:\~\dev\dokugaku\pazuru'
+    twd = r'C:\~\dev\pazuru'
     os.chdir(twd)
     command = ['neovide.exe', abspath_new_file, abspath_last_solution, abspath_readme, '--multigrid']
     subprocess.run(command)
