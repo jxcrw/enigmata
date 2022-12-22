@@ -687,7 +687,7 @@ class Solution31:
 
 
 # 32: 2022/12/08
-class Solution:
+class Solution32:
     def max_area(self, heights: list[int]) -> int:
         area_max = 0
         l, r = 0, len(heights) - 1
@@ -700,3 +700,35 @@ class Solution:
             else: r -= 1
 
         return area_max
+
+
+# 33: 2022/12/21
+class Solution33:
+    def reverse_list(self, head: ListNode | None) -> ListNode | None:
+        curr, prev = head, None
+        while curr:
+            temp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp
+        return prev
+
+
+class Solution33_1:
+    def reverse_list(self, head: ListNode | None) -> ListNode | None:
+        dummy, curr = ListNode(), head
+        while curr:
+            temp = curr.next
+            curr.next = dummy.next
+            dummy.next = curr
+            curr = temp
+        return dummy.next
+
+
+class Solution33_2:
+    def max_subarray(self, nums: list[int]) -> int:
+        sum_max, sum_temp = -float('inf'), 0
+        for num in nums:
+            sum_temp = max(sum_temp + num, num)
+            sum_max = max(sum_max, sum_temp)
+        return sum_max
