@@ -64,7 +64,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#49-group-anagrams-solutions-">49</a><sub>8</sub></td>
     <td align="center"><a href="#53-maximum-subarray-solutions">53</a><sub>11</sub></td>
     <td align="center"><a href="#56-merge-intervals-solutions">56</a><sub>14</sub></td>
-    <td align="center"><a href="#57-insert-interval-solutions-">57</a><sub>6</sub></td>
+    <td align="center"><a href="#57-insert-interval-solutions-">57</a><sub>7</sub></td>
     <td align="center"><a href="#61-rotate-list-solutions">61</a><sub>9</sub></td>
     <td align="center"><a href="#75-sort-colors-solutions">75</a><sub>11</sub></td>
     <td align="center"><a href="#76-minimum-window-substring-solutions">76</a><sub>13</sub></td>
@@ -95,7 +95,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
   <tr>
     <td align="center"><a href="#200-number-of-islands-solutions">200</a><sub>11</sub></td>
     <td align="center"><a href="#202-happy-number-solutions-">202</a><sub>5</sub></td>
-    <td align="center"><a href="#206-reverse-linked-list-solutions">206</a><sub>11</sub></td>
+    <td align="center"><a href="#206-reverse-linked-list-solutions">206</a><sub>12</sub></td>
     <td align="center"><a href="#209-minimum-size-subarray-sum-solutions-">209</a><sub>10</sub></td>
     <td align="center"><a href="#215-kth-largest-element-in-an-array-solutions-">215</a><sub>5</sub></td>
     <td align="center"><a href="#217-contains-duplicate-solutions">217</a><sub>8</sub></td>
@@ -502,6 +502,7 @@ DP/Kadane's algorithm. Very similar to [121. Best Time to Buy and Sell Stock](ht
 | 2022/09/30 |   –   | 2:11 |   –   | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/57.%20Insert%20Interval/insert_interval_2022-09-30.py) |
 | 2022/10/23 | 1:10  | 9:16 | 10:26 | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/57.%20Insert%20Interval/insert_interval_2022-10-23.py) |
 | 2022/12/21 | 3:31  | 6:16 | 9:48  | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/57.%20Insert%20Interval/insert_interval_2022-12-21.py) |
+| 2022/12/26 | 0:38  | 4:40 | 5:18  | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/57.%20Insert%20Interval/insert_interval_2022-12-26.py) |
 
 #### [61. Rotate List](https://leetcode.com/problems/rotate-list/) ([solutions](https://github.com/jxcrw/pazuru/blob/main/leetcode/61.%20Rotate%20List))
 
@@ -822,8 +823,8 @@ First time encountering DFS. What a neat algo 🤓 .
 #### [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) ([solutions](https://github.com/jxcrw/pazuru/blob/main/leetcode/206.%20Reverse%20Linked%20List/))
 A classic :) . Kind of hurts my brain though.
 
-|    Date    | Think | Code | Total |                                                          Solution                                                           |
-|:----------:|:-----:|:----:|:-----:|:---------------------------------------------------------------------------------------------------------------------------:|
+|    Date    | Think | Code | Total |                                                       Solution                                                       |
+|:----------:|:-----:|:----:|:-----:|:--------------------------------------------------------------------------------------------------------------------:|
 | 2022/03/02 |   ∞   |  ∞   |   ∞   |      [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/206.%20Reverse%20Linked%20List/reverse_ll.py)       |
 | 2022/03/02 |   –   | 5:21 |   –   | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/206.%20Reverse%20Linked%20List/reverse_ll_2022-03-02.py) |
 | 2022/03/06 |   –   | 4:16 |   –   | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/206.%20Reverse%20Linked%20List/reverse_ll_2022-03-06.py) |
@@ -835,6 +836,7 @@ A classic :) . Kind of hurts my brain though.
 | 2022/08/18 |   –   | 1:19 |   –   | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/206.%20Reverse%20Linked%20List/reverse_ll_2022-08-18.py) |
 | 2022/08/31 |   –   | 1:11 |   –   | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/206.%20Reverse%20Linked%20List/reverse_ll_2022-08-31.py) |
 | 2022/10/02 |   –   | 0:43 |   –   | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/206.%20Reverse%20Linked%20List/reverse_ll_2022-10-02.py) |
+| 2022/12/26 | 0:34  | 1:18 | 1:52  | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/206.%20Reverse%20Linked%20List/reverse_ll_2022-12-26.py) |
 
 #### [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) ([solutions](https://github.com/jxcrw/pazuru/blob/main/leetcode/209.%20Minimum%20Size%20Subarray%20Sum/)) 🙃
 
@@ -1399,7 +1401,7 @@ Except for one minor simplification/twist, basically the same as:
 | 2022/10/03 |   –   | 1:02 |   –   | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/1004.%20Max%20Consecutive%20Ones%20III/max_ones_iii_2022-10-03.py) |
 
 #### [1009. Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/) ([solutions](https://github.com/jxcrw/pazuru/blob/main/leetcode/1009.%20Complement%20of%20Base%2010%20Integer))
-0 ⊕ b = b, 1 ⊕ b = ¬b, bitlength of n = `floor(log2(n)) + 1`, all ones bitmask of length n =  `(1 << n) - 1`.
+0 ⊕ b = b, 1 ⊕ b = ¬b, bitlength of n = `floor(log2(n)) + 1`, all ones bitmask of length n = `(1 << n) - 1`.
 
 |    Date    | Think | Code | Total |                                                                  Solution                                                                  |
 |:----------:|:-----:|:----:|:-----:|:------------------------------------------------------------------------------------------------------------------------------------------:|
