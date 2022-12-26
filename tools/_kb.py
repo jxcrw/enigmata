@@ -732,3 +732,28 @@ class Solution33_2:
             sum_temp = max(sum_temp + num, num)
             sum_max = max(sum_max, sum_temp)
         return sum_max
+
+# 34: 2022/12/26
+class Solution34:
+    def find_min(self, nums: list[int]) -> int:
+        n = len(nums)
+        l, r = 0, n - 1
+        if n == 1 or nums[l] < nums[r]: return nums[l]
+        while l <= r:
+            m = (l + r) // 2
+            if nums[m + 1] < nums[m]: return nums[m + 1]
+            elif nums[l] <= nums[m]: l = m + 1
+            else: r = m - 1
+        return -1
+
+
+class Solution34_2:
+    def is_valid(self, string: str) -> bool:
+        brackets = {'(': ')', '[': ']', '{': '}'}
+        stack = []
+        for c in string:
+            if c in brackets:
+                stack.append(c)
+            elif not stack or c != brackets[stack.pop()]:
+                return False
+        return not stack
