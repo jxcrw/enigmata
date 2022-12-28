@@ -757,3 +757,30 @@ class Solution34_2:
             elif not stack or c != brackets[stack.pop()]:
                 return False
         return not stack
+
+
+# 35: 2022/12/28
+class Solution35:
+    def remove_dupes(self, nums: list[int]) -> int:
+        l = 0
+        for r in range(len(nums)):
+            if nums[r] != nums[l]:
+                l += 1
+                nums[l] = nums[r]
+        return l + 1
+
+
+class Solution35_1:
+    def sort_squares(self, nums: list[int]) -> list[int]:
+        n = len(nums)
+        squares = [0] * n
+        l, r = 0, n - 1
+        while l <= r:
+            square_l, square_r = nums[l] ** 2, nums[r] ** 2
+            if square_l > square_r:
+                squares[r - l] = square_l
+                l += 1
+            else:
+                squares[r - l] = square_r
+                r -= 1
+        return squares
