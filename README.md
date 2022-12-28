@@ -81,7 +81,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#116-populating-next-right-pointers-in-each-node-solutions-">116</a><sub>7</sub></td>
     <td align="center"><a href="#121-best-time-to-buy-and-sell-stock-solutions">121</a><sub>9</sub></td>
     <td align="center"><a href="#124-binary-tree-maximum-path-sum-solutions">124</a><sub>4</sub></td>
-    <td align="center"><a href="#129-sum-root-to-leaf-numbers-solutions-">129</a><sub>5</sub></td>
+    <td align="center"><a href="#129-sum-root-to-leaf-numbers-solutions-">129</a><sub>6</sub></td>
     <td align="center"><a href="#136-single-number-solutions">136</a><sub>5</sub></td>
     <td align="center"><a href="#137-single-number-ii-solutions">137</a><sub>5</sub></td>
     <td align="center"><a href="#141-linked-list-cycle-solutions-">141</a><sub>11</sub></td>
@@ -677,13 +677,14 @@ BFS is better than DFS here because if the tree is unbalanced, we find the min d
 #### [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) ([solutions](https://github.com/jxcrw/pazuru/blob/main/leetcode/129.%20Sum%20Root%20to%20Leaf%20Numbers)) 😎
 Very similar to [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/).
 
-|    Date    | Think | Code | Total |                                                              Solution                                                              |
-|:----------:|:-----:|:----:|:-----:|:----------------------------------------------------------------------------------------------------------------------------------:|
+|    Date    | Think | Code | Total |                                                          Solution                                                           |
+|:----------:|:-----:|:----:|:-----:|:---------------------------------------------------------------------------------------------------------------------------:|
 | 2022/10/11 |   ∞   |  ∞   |   ∞   |      [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/129.%20Sum%20Root%20to%20Leaf%20Numbers/sum_nums.py)       |
 | 2022/10/13 |   –   | 2:02 |   –   | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/129.%20Sum%20Root%20to%20Leaf%20Numbers/sum_nums_2022-10-13.py) |
 | 2022/10/16 |   –   | 4:34 |   –   | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/129.%20Sum%20Root%20to%20Leaf%20Numbers/sum_nums_2022-10-16.py) |
 | 2022/10/23 | 1:49  | 1:58 | 3:47  | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/129.%20Sum%20Root%20to%20Leaf%20Numbers/sum_nums_2022-10-23.py) |
 | 2022/11/11 | 1:57  | 5:19 | 7:17  | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/129.%20Sum%20Root%20to%20Leaf%20Numbers/sum_nums_2022-11-11.py) |
+| 2022/12/28 | 3:27  | 6:12 |   ≈   | [Python](https://github.com/jxcrw/pazuru/blob/main/leetcode/129.%20Sum%20Root%20to%20Leaf%20Numbers/sum_nums_2022-12-28.py) |
 
 #### [136. Single Number](https://leetcode.com/problems/single-number/) ([solutions](https://github.com/jxcrw/pazuru/blob/main/leetcode/136.%20Single%20Number))
 x ⊕ 0 = x, x ⊕ x = 0
