@@ -1,7 +1,7 @@
-# パズル
-I love a good coding puzzle. I mainly play LeetCode ([my LC profile 😎](https://leetcode.com/jxcrw/)), but also love Advent of Code.
+# Enigmata
+Much of the Codex is firewalled beneath a polymorphic security level I now know to be the Enigmata - algorithmic mind puzzles, stress tests of the psyche. Rites of passage, perhaps, for those who would seek deeper Knowledge.
 
-This repo contains the following modules:
+So it is that I must master these dark ways, as I must master my mind.
 
 ```
 ├── aoc         Advent of Code solutions and notes.
