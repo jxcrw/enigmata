@@ -166,7 +166,6 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
 ### Milestones
 - yyyy/mm/dd - Finished [Grokking equivalency list 2020](https://gist.github.com/tykurtz/3548a31f673588c05c89f9ca42067bc4).
 - yyyy/mm/dd - Finished [Grokking equivalency list 2022](https://github.com/navidre/new_grokking_to_leetcode).
-- yyyy/mm/dd - Finished [Grind 169](https://www.techinterviewhandbook.org/grind75?weeks=26&order=topics&mode=preferences).
 - yyyy/mm/dd - ???
 - yyyy/mm/dd - Profit!
 
