@@ -13,6 +13,8 @@ import webbrowser
 
 from aocd import get_data
 
+# TODO: Remove dependency on https://github.com/wimglenn/advent-of-code-data
+
 
 def ready_set_go():
     """Prep files/environment to start solving a puzzle."""
