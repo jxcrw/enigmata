@@ -784,3 +784,26 @@ class Solution35_1:
                 squares[r - l] = square_r
                 r -= 1
         return squares
+
+
+# 36: 2023/01/19
+class Solution36:
+    def rotate(self, matrix: list[list[int]]) -> None:
+        m = len(matrix)
+        matrix.reverse()
+        for i in range(m):
+            for j in range(i):
+                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+
+
+class Solution36_1:
+    def length_longest_substring(self, string: str) -> int:
+        prev_use_indices, length_max = {}, 0
+        l = 0
+        for r, c in enumerate(string):
+            if c in prev_use_indices and prev_use_indices[c] >= l:
+                l = prev_use_indices[c] + 1
+            else:
+                length_max = max(length_max, r - l + 1)
+            prev_use_indices[c] = r
+        return length_max
