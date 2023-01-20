@@ -807,3 +807,15 @@ class Solution36_1:
                 length_max = max(length_max, r - l + 1)
             prev_use_indices[c] = r
         return length_max
+
+
+# 37: 2023/01/19
+class Solution37:
+    def remove_nth_from_end(self, head: ListNode | None, n: int) -> ListNode | None:
+        dummy = slow = fast = ListNode(next=head)
+        for _ in range(n): fast = fast.next
+        while fast.next:
+            slow = slow.next
+            fast = fast.next
+        slow.next = slow.next.next
+        return dummy.next
