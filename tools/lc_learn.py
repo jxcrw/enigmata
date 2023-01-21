@@ -106,8 +106,14 @@ def prep_files(prob_info: dict):
         abs_path_readme = os.path.abspath(f.name)
 
     # Auto-open files in IDE
-    subprocess.run(['idea64.exe', abs_path_readme])
-    subprocess.run(['idea64.exe', '--line', '9', '--column', '12', abs_path_code])
+    cwd = os.getcwd()
+    twd = r'C:\~\dev\enigmata'
+    os.chdir(twd)
+    command = ['neovide.exe', abs_path_code, abs_path_readme, '--multigrid']
+    subprocess.run(command)
+    os.chdir(cwd)
+    # subprocess.run(['idea64.exe', abs_path_readme])
+    # subprocess.run(['idea64.exe', '--line', '9', '--column', '12', abs_path_code])
     return None
 
 
