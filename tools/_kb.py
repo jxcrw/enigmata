@@ -2,6 +2,7 @@
 """Keyboarding practice"""
 
 from collections import Counter, defaultdict
+from ctypes import string_at
 from tools.dsa.linked_list import ListNode
 
 # 1: 2022/10/16
@@ -819,3 +820,22 @@ class Solution37:
             fast = fast.next
         slow.next = slow.next.next
         return dummy.next
+
+
+# 38: 2023/01/20
+class Solution38:
+    def is_palindrome(self, x: int) -> bool:
+        string = str(x)
+        string_rev = string[::-1]
+        return string == string_rev
+
+
+class Solution38_1:
+    def is_palindrome(self, x: int) -> bool:
+        if x < 0: return False
+        rev, n = 0, x
+        while n:
+            ones = n % 10
+            rev = rev * 10 + ones
+            n //= 10
+        return rev == x
