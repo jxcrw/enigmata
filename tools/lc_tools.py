@@ -225,7 +225,7 @@ def pretty_eval(solutions: list[Any], method: str, inputs: list, outputs: list) 
             results_all.extend(results)
 
     if results_all:
-        print(Fore.LIGHTBLACK_EX + '\n--- Examples ---')
+        print(Fore.LIGHTBLACK_EX + '--- Examples ---')
         console = Console()
         console.print(table)
     if failures:
