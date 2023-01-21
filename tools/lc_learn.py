@@ -14,7 +14,7 @@ import lc_templates
 from lc_tools import SOLUTIONS_URL, sanitize_url, time_attempt, update_main_readme, update_problem_readme
 
 
-DEBUG = False
+DEBUG = True
 
 
 def get_prob_info_auto() -> dict:
@@ -152,10 +152,14 @@ def build_snippet(metadata: dict) -> tuple[str, str]:
 
 def pytype(_type: str) -> str:
     """Convert LC snippet metadata type to Pythonic type."""
-    type_map = {'string': 'str',
-                'integer': 'int',
-                'boolean': 'bool',
-                'character[]': 'list[str]'}
+    type_map = {
+        'string': 'str',
+        'integer': 'int',
+        'boolean': 'bool',
+        'character[]': 'list[str]',
+        'integer[]': 'list[int]',
+        'list<list<integer>>': 'list[list[int]]',
+    }
     python_type = type_map[_type] if _type in type_map else _type
     return python_type
 
