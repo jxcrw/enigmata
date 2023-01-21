@@ -20,7 +20,7 @@ from rich.table import Table
 
 from tools import md
 
-SOLUTIONS_URL = 'https://github.com/jxcrw/pazuru/blob/main/leetcode/{title}'
+SOLUTIONS_URL = 'https://github.com/jxcrw/enigmata/blob/main/leetcode/{title}'
 
 colorama.init(autoreset=True)
 
