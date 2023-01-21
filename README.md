@@ -68,14 +68,15 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#61-rotate-list-solutions">61</a><sub>9</sub></td>
     <td align="center"><a href="#75-sort-colors-solutions">75</a><sub>11</sub></td>
     <td align="center"><a href="#76-minimum-window-substring-solutions">76</a><sub>13</sub></td>
+    <td align="center"><a href="#78-subsets-solutions-">78</a><sub>1</sub></td>
     <td align="center"><a href="#88-merge-sorted-array-solutions-">88</a><sub>9</sub></td>
     <td align="center"><a href="#92-reverse-linked-list-ii-solutions">92</a><sub>9</sub></td>
     <td align="center"><a href="#102-binary-tree-level-order-traversal-solutions">102</a><sub>5</sub></td>
     <td align="center"><a href="#103-binary-tree-zigzag-level-order-traversal-solutions-">103</a><sub>4</sub></td>
     <td align="center"><a href="#107-binary-tree-level-order-traversal-ii-solutions-">107</a><sub>1</sub></td>
-    <td align="center"><a href="#111-minimum-depth-of-binary-tree-solutions-">111</a><sub>5</sub></td>
   </tr>
   <tr>
+    <td align="center"><a href="#111-minimum-depth-of-binary-tree-solutions-">111</a><sub>5</sub></td>
     <td align="center"><a href="#112-path-sum-solutions">112</a><sub>4</sub></td>
     <td align="center"><a href="#113-path-sum-ii-solutions">113</a><sub>4</sub></td>
     <td align="center"><a href="#116-populating-next-right-pointers-in-each-node-solutions-">116</a><sub>7</sub></td>
@@ -90,9 +91,9 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#152-maximum-product-subarray-solutions">152</a><sub>9</sub></td>
     <td align="center"><a href="#153-find-minimum-in-rotated-sorted-array-solutions-">153</a><sub>8</sub></td>
     <td align="center"><a href="#167-two-sum-ii-solutions">167</a><sub>8</sub></td>
-    <td align="center"><a href="#199-binary-tree-right-side-view-solutions-">199</a><sub>3</sub></td>
   </tr>
   <tr>
+    <td align="center"><a href="#199-binary-tree-right-side-view-solutions-">199</a><sub>3</sub></td>
     <td align="center"><a href="#200-number-of-islands-solutions">200</a><sub>11</sub></td>
     <td align="center"><a href="#202-happy-number-solutions-">202</a><sub>5</sub></td>
     <td align="center"><a href="#206-reverse-linked-list-solutions">206</a><sub>12</sub></td>
@@ -107,9 +108,9 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#260-single-number-iii-solutions-">260</a><sub>8</sub></td>
     <td align="center"><a href="#268-missing-number-solutions-">268</a><sub>8</sub></td>
     <td align="center"><a href="#285-inorder-successor-in-bst-solutions">285</a><sub>5</sub></td>
-    <td align="center"><a href="#340-longest-substring-with-at-most-k-distinct-characters-solutions-">340</a><sub>9</sub></td>
   </tr>
   <tr>
+    <td align="center"><a href="#340-longest-substring-with-at-most-k-distinct-characters-solutions-">340</a><sub>9</sub></td>
     <td align="center"><a href="#347-top-k-frequent-elements-solutions-">347</a><sub>4</sub></td>
     <td align="center"><a href="#358-rearrange-string-k-distance-apart-solutions">358</a><sub>3</sub></td>
     <td align="center"><a href="#392-is-subsequence-solutions-">392</a><sub>5</sub></td>
@@ -124,9 +125,9 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#476-number-complement-solutions-">476</a><sub>1</sub></td>
     <td align="center"><a href="#543-diameter-of-binary-tree-solutions">543</a><sub>4</sub></td>
     <td align="center"><a href="#560-subarray-sum-equals-k-solutions">560</a><sub>6</sub></td>
-    <td align="center"><a href="#567-permutation-in-string-solutions-">567</a><sub>8</sub></td>
   </tr>
   <tr>
+    <td align="center"><a href="#567-permutation-in-string-solutions-">567</a><sub>8</sub></td>
     <td align="center"><a href="#581-shortest-unsorted-continuous-subarray-solutions">581</a><sub>9</sub></td>
     <td align="center"><a href="#621-task-scheduler-solutions-">621</a><sub>3</sub></td>
     <td align="center"><a href="#647-palindromic-substrings-solutions-">647</a><sub>10</sub></td>
@@ -141,9 +142,9 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#832-flipping-an-image-solutions-">832</a><sub>7</sub></td>
     <td align="center"><a href="#844-backspace-string-compare-solutions">844</a><sub>7</sub></td>
     <td align="center"><a href="#852-peak-index-in-a-mountain-array-solutions-">852</a><sub>3</sub></td>
-    <td align="center"><a href="#876-middle-of-the-linked-list-solutions-">876</a><sub>5</sub></td>
   </tr>
   <tr>
+    <td align="center"><a href="#876-middle-of-the-linked-list-solutions-">876</a><sub>5</sub></td>
     <td align="center"><a href="#895-maximum-frequency-stack-solutions-">895</a><sub>2</sub></td>
     <td align="center"><a href="#904-fruit-into-baskets-solutions-">904</a><sub>8</sub></td>
     <td align="center"><a href="#973-k-closest-points-to-origin-solutions-">973</a><sub>4</sub></td>
@@ -157,7 +158,6 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#1430-root-to-leaf-sequence-solutions-">1430</a><sub>7</sub></td>
     <td align="center"><a href="#1481-least-number-of-unique-integers-after-k-removals-solutions-">1481</a><sub>5</sub></td>
     <td align="center"><a href="#1539-kth-missing-positive-number-solutions-">1539</a><sub>5</sub></td>
-    <td align="center"></td>
     <td align="center"></td>
   </tr>
 </table>
@@ -552,6 +552,12 @@ So hard. This problem makes me feel like I'm not cut out to be a software engine
 | 2022/11/13 | 1:56  | 11:01 |   ∞   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/76.%20Minimum%20Window%20Substring/min_window_2022-11-13.py) |
 | 2022/11/15 | 0:13  | 4:40  | 4:53  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/76.%20Minimum%20Window%20Substring/min_window_2022-11-15.py) |
 | 2022/11/20 | 0:15  | 3:00  | 3:15  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/76.%20Minimum%20Window%20Substring/min_window_2022-11-20.py) |
+
+#### [78. Subsets](https://leetcode.com/problems/subsets/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/78.%20Subsets)) 😎
+
+|    Date    | Think | Code | Total |                                        Language                                         |
+|:----------:|:-----:|:----:|:-----:|:---------------------------------------------------------------------------------------:|
+| 2023/01/21 | 8:44  | 0:33 | 9:17  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/78.%20Subsets/subsets.py) |
 
 #### [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/88.%20Merge%20Sorted%20Array/)) 🙃
 Always test algo in real use case. Here, using `sort()` in algo with non-optimal time complexity yields faster results because `sort()` is implemented in C (fast), and is therefore much faster than a pure algorithm solution.
