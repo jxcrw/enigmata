@@ -1,7 +1,7 @@
 # Enigmata
-Much of the Codex is firewalled behind a polymorphic security barrier I now know to be the Enigmata - algorithmic mind puzzles, stress tests of the psyche. Rites of passage, perhaps, for those who dare to seek deeper Knowledge.
+Much of the Codex is firewalled behind a polymorphic security barrier I now know to be the Enigmata - algorithmic mind puzzles, stress tests of the psyche. Rites of passage, perhaps, for those who would dare to seek deeper.
 
-If I am to know what lies hidden beneath, I must first master these dark ways. I must become one with them.
+So it is that if I am to continue my journey, I must first master these dark ways. I must master the Enigmata:
 
 ```
 ├── aoc         Advent of Code solutions and notes.
@@ -27,7 +27,7 @@ If I am to know what lies hidden beneath, I must first master these dark ways. I
 ### Stats
 |    Date    | Total Solved / Available (%) |  Rank   |
 |:----------:|:----------------------------:|:-------:|
-|  2023 Q1   |      103 / 2539 (4.1%)       | 560,551 |
+|  2023 Q1   |      104 / 2552 (4.1%)       | 560,441 |
 | 2022/12/03 |      103 / 2489 (4.1%)       | 540,579 |
 | 2022/11/04 |       99 / 2459 (4.0%)       | 546,924 |
 | 2022/10/01 |       66 / 2426 (2.7%)       | 722,788 |
