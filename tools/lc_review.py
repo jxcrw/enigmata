@@ -42,16 +42,10 @@ def prep_file(prob_id: int) -> str:
     abspath_readme = os.path.abspath(readme)
 
     # Auto-open files/problem in IDE/browser
-    cwd = os.getcwd()
-    twd = r'C:\~\dev\enigmata'
-    os.chdir(twd)
-    command = ['neovide.exe', abspath_new_file, abspath_last_solution, abspath_readme, '--multigrid']
-    subprocess.run(command)
-    # subprocess.run(['idea64.exe', '--line', '0', '--column', '0', abspath_last_solution])
-    # subprocess.run(['idea64.exe', '--line', '6', '--column', '12', abspath_new_file])
+    subprocess.run(['idea64.exe', '--line', '0', '--column', '0', abspath_readme])
+    subprocess.run(['idea64.exe', '--line', '0', '--column', '0', abspath_last_solution])
+    subprocess.run(['idea64.exe', '--line', '6', '--column', '12', abspath_new_file])
     webbrowser.open(prob_url, new=0, autoraise=False)
-
-    os.chdir(cwd)
 
     return filename
 
