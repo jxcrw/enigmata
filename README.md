@@ -74,7 +74,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
   </tr>
   <tr>
     <td align="center"><a href="#111-minimum-depth-of-binary-tree-solutions-">111</a><sub>5</sub></td>
-    <td align="center"><a href="#112-path-sum-solutions">112</a><sub>4</sub></td>
+    <td align="center"><a href="#112-path-sum-solutions">112</a><sub>5</sub></td>
     <td align="center"><a href="#113-path-sum-ii-solutions">113</a><sub>4</sub></td>
     <td align="center"><a href="#116-populating-next-right-pointers-in-each-node-solutions-">116</a><sub>7</sub></td>
     <td align="center"><a href="#121-best-time-to-buy-and-sell-stock-solutions">121</a><sub>9</sub></td>
@@ -630,6 +630,7 @@ BFS is better than DFS here because if the tree is unbalanced, we find the min d
 | 2022/10/11 |   –   | 1:21 |   –   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2022-10-11.py) |
 | 2022/10/14 |   –   | 3:22 |   –   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2022-10-14.py) |
 | 2022/10/23 | 1:47  | 2:06 | 3:53  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2022-10-23.py) |
+| 2023/06/21 | 0:21  | 3:11 | 3:32  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2023-06-21.py) |
 
 #### [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/113.%20Path%20Sum%20II))
 
