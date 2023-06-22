@@ -7,3 +7,4 @@
 | 2022/10/14 |   –   | 3:22 |   –   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2022-10-14.py) |
 | 2022/10/23 | 1:47  | 2:06 | 3:53  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2022-10-23.py) |
 | 2023/06/21 | 0:21  | 3:11 | 3:32  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2023-06-21.py) |
+| 2023/06/22 | 0:12  | 2:16 | 2:27  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2023-06-22.py) |
