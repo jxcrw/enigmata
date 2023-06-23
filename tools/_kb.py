@@ -915,3 +915,16 @@ class Solution40_1:
             product_right *= nums[i]
 
         return products
+
+
+# 41: 2023/06/23
+class Solution41:
+    def max_product(self, nums: list[int]) -> int:
+        product_min, product_max, max_final = 1, 1, -float('inf')
+        for num in nums:
+            x = product_min * num
+            y = product_max * num
+            product_min = min(num, x, y)
+            product_max = max(num, x, y)
+            max_final = max(max_final, product_min, product_max)
+        return max_final
