@@ -7,3 +7,4 @@
 | 2022/10/19 |   –   | 2:54 |   –   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2022-10-19.py) |
 | 2022/10/26 | 1:02  | 1:55 | 2:57  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2022-10-26.py) |
 | 2023/06/22 | 2:03  | 2:44 |   ∞   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2023-06-22.py) |
+| 2023/06/23 | 0:20  | 1:31 | 1:50  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2023-06-23.py) |

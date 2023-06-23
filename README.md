@@ -78,7 +78,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#113-path-sum-ii-solutions">113</a><sub>4</sub></td>
     <td align="center"><a href="#116-populating-next-right-pointers-in-each-node-solutions-">116</a><sub>7</sub></td>
     <td align="center"><a href="#121-best-time-to-buy-and-sell-stock-solutions">121</a><sub>9</sub></td>
-    <td align="center"><a href="#124-binary-tree-maximum-path-sum-solutions">124</a><sub>4</sub></td>
+    <td align="center"><a href="#124-binary-tree-maximum-path-sum-solutions">124</a><sub>5</sub></td>
     <td align="center"><a href="#129-sum-root-to-leaf-numbers-solutions-">129</a><sub>6</sub></td>
     <td align="center"><a href="#136-single-number-solutions">136</a><sub>5</sub></td>
     <td align="center"><a href="#137-single-number-ii-solutions">137</a><sub>5</sub></td>
@@ -120,7 +120,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#451-sort-characters-by-frequency-solutions-">451</a><sub>4</sub></td>
     <td align="center"><a href="#457-circular-array-loop-solutions">457</a><sub>10</sub></td>
     <td align="center"><a href="#476-number-complement-solutions-">476</a><sub>1</sub></td>
-    <td align="center"><a href="#543-diameter-of-binary-tree-solutions">543</a><sub>5</sub></td>
+    <td align="center"><a href="#543-diameter-of-binary-tree-solutions">543</a><sub>6</sub></td>
     <td align="center"><a href="#560-subarray-sum-equals-k-solutions">560</a><sub>6</sub></td>
   </tr>
   <tr>
@@ -678,6 +678,7 @@ BFS is better than DFS here because if the tree is unbalanced, we find the min d
 | 2022/10/20 |   –   | 2:12 |   –   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/124.%20Binary%20Tree%20Maximum%20Path%20Sum/max_pathsum_2022-10-20.py) |
 | 2022/10/23 | 1:34  | 2:31 | 4:05  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/124.%20Binary%20Tree%20Maximum%20Path%20Sum/max_pathsum_2022-10-23.py) |
 | 2022/10/28 | 0:25  | 2:57 | 3:22  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/124.%20Binary%20Tree%20Maximum%20Path%20Sum/max_pathsum_2022-10-28.py) |
+| 2023/06/23 | 0:56  | 0:09 |   ∞   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/124.%20Binary%20Tree%20Maximum%20Path%20Sum/max_pathsum_2023-06-23.py) |
 
 #### [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/129.%20Sum%20Root%20to%20Leaf%20Numbers)) 😎
 Very similar to [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/).
@@ -1146,6 +1147,7 @@ Identical to [1009. Complement of Base 10 Integer](https://leetcode.com/problems
 | 2022/10/19 |   –   | 2:54 |   –   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2022-10-19.py) |
 | 2022/10/26 | 1:02  | 1:55 | 2:57  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2022-10-26.py) |
 | 2023/06/22 | 2:03  | 2:44 |   ∞   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2023-06-22.py) |
+| 2023/06/23 | 0:20  | 1:31 | 1:50  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2023-06-23.py) |
 
 #### [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/560.%20Subarray%20Sum%20Equals%20K))
 
