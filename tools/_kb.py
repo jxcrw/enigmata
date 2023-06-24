@@ -928,3 +928,15 @@ class Solution41:
             product_max = max(num, x, y)
             max_final = max(max_final, product_min, product_max)
         return max_final
+
+
+# 42: 2023/06/24
+class Solution42:
+    def search(self, nums: list[int], target: int) -> int:
+        l, r = 0, len(nums) - 1
+        while l <= r:
+            m = (l + r) // 2
+            if nums[m] < target: l = m + 1
+            elif nums[m] > target: r = m - 1
+            else: return m
+        return -1
