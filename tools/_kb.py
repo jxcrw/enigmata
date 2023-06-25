@@ -940,3 +940,19 @@ class Solution42:
             elif nums[m] > target: r = m - 1
             else: return m
         return -1
+
+
+# 43: 2023/06/25
+class Solution43:
+    def sort_colors(self, nums: list[int]) -> None:
+        p0, i, p2 = 0, 0, len(nums) - 1
+        while i <= p2:
+            if nums[i] == 0:
+                nums[i], nums[p0] = nums[p0], nums[i]
+                p0 += 1
+                i += 1
+            elif nums[i] == 2:
+                nums[i], nums[p2] = nums[p2], nums[i]
+                p2 -= 1
+            else:
+                i += 1
