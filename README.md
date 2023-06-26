@@ -62,7 +62,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#53-maximum-subarray-solutions">53</a><sub>11</sub></td>
     <td align="center"><a href="#56-merge-intervals-solutions">56</a><sub>14</sub></td>
     <td align="center"><a href="#57-insert-interval-solutions-">57</a><sub>7</sub></td>
-    <td align="center"><a href="#61-rotate-list-solutions">61</a><sub>9</sub></td>
+    <td align="center"><a href="#61-rotate-list-solutions">61</a><sub>10</sub></td>
     <td align="center"><a href="#75-sort-colors-solutions">75</a><sub>11</sub></td>
     <td align="center"><a href="#76-minimum-window-substring-solutions">76</a><sub>13</sub></td>
     <td align="center"><a href="#78-subsets-solutions-">78</a><sub>1</sub></td>
@@ -74,7 +74,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
   </tr>
   <tr>
     <td align="center"><a href="#111-minimum-depth-of-binary-tree-solutions-">111</a><sub>5</sub></td>
-    <td align="center"><a href="#112-path-sum-solutions">112</a><sub>6</sub></td>
+    <td align="center"><a href="#112-path-sum-solutions">112</a><sub>7</sub></td>
     <td align="center"><a href="#113-path-sum-ii-solutions">113</a><sub>4</sub></td>
     <td align="center"><a href="#116-populating-next-right-pointers-in-each-node-solutions-">116</a><sub>7</sub></td>
     <td align="center"><a href="#121-best-time-to-buy-and-sell-stock-solutions">121</a><sub>9</sub></td>
@@ -113,7 +113,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#392-is-subsequence-solutions-">392</a><sub>5</sub></td>
     <td align="center"><a href="#417-pacific-atlantic-water-flow-solutions">417</a><sub>9</sub></td>
     <td align="center"><a href="#424-longest-repeating-character-replacement-solutions">424</a><sub>8</sub></td>
-    <td align="center"><a href="#437-path-sum-iii-solutions">437</a><sub>8</sub></td>
+    <td align="center"><a href="#437-path-sum-iii-solutions">437</a><sub>9</sub></td>
     <td align="center"><a href="#438-find-all-anagrams-in-a-string-solutions-">438</a><sub>7</sub></td>
     <td align="center"><a href="#442-find-all-duplicates-in-an-array-solutions-">442</a><sub>6</sub></td>
     <td align="center"><a href="#448-find-all-numbers-disappeared-in-an-array-solutions-">448</a><sub>6</sub></td>
@@ -514,6 +514,7 @@ DP/Kadane's algorithm. Very similar to [121. Best Time to Buy and Sell Stock](ht
 | 2022/11/13 | 1:43  | 8:48 |   ≈   |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2022-11-13.py)  |
 | 2022/11/13 | 0:09  | 1:46 | 1:55  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2022-11-13_2.py) |
 | 2022/11/20 | 1:04  | 2:08 | 3:12  |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2022-11-20.py)  |
+| 2023/06/25 | 0:56  | 0:48 |   ∞   |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2023-06-25.py)  |
 
 #### [75. Sort Colors](https://leetcode.com/problems/sort-colors/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/75.%20Sort%20Colors))
 
@@ -632,6 +633,7 @@ BFS is better than DFS here because if the tree is unbalanced, we find the min d
 | 2022/10/23 | 1:47  | 2:06 | 3:53  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2022-10-23.py) |
 | 2023/06/21 | 0:21  | 3:11 | 3:32  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2023-06-21.py) |
 | 2023/06/22 | 0:12  | 2:16 | 2:27  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2023-06-22.py) |
+| 2023/06/25 | 0:29  | 2:17 | 2:46  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/112.%20Path%20Sum/path_sum_2023-06-25.py) |
 
 #### [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/113.%20Path%20Sum%20II))
 
@@ -1072,6 +1074,7 @@ Nearly identical to [424. Longest Repeating Character Replacement](https://leetc
 | 2022/10/31 | 2:04  | 3:00 | 5:03  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/437.%20Path%20Sum%20III/path_sum_iii_2022-10-31.py) |
 | 2022/11/20 | 1:47  | 5:58 | 7:45  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/437.%20Path%20Sum%20III/path_sum_iii_2022-11-20.py) |
 | 2023/06/25 | 0:49  | 0:35 |   ∞   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/437.%20Path%20Sum%20III/path_sum_iii_2023-06-25.py) |
+| 2023/06/25 | 0:14  | 2:46 | 3:00  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/437.%20Path%20Sum%20III/path_sum_iii_2023-06-26.py) |
 
 #### [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/438.%20Find%20All%20Anagrams%20in%20a%20String/)) 😎
 Very similar to [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/). Glad I put in the time battling with that one.
