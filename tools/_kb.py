@@ -956,3 +956,48 @@ class Solution43:
                 p2 -= 1
             else:
                 i += 1
+
+
+# 44: 2023/06/25
+class Solution44:
+    def num_islands(self, grid: list[list[int]]) -> int:
+        count, m, n = 0, len(grid), len(grid[0])
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == '1':
+                    self._dfs(grid, i, j)
+                    count += 1
+        return count
+
+    def _dfs(self, grid: list[list[int]], i: int, j: int) -> None:
+        if grid[i][j] == '#': return
+        grid[i][j] = '#'
+
+        m, n = len(grid), len(grid[0])
+        deltas = ((-1, 0), (1, 0), (0, 1), (0, -1))
+        for di, dj in deltas:
+            i_next, j_next = i + di, j + dj
+            is_in_bounds = (0 <= i_next < m) and (0 <= j_next < n)
+            if is_in_bounds and grid[i_next][j_next] == '1':
+                self._dfs(grid, i_next, j_next)
+
+
+class Solution44_1:
+    def threesum_closest(self, nums: list[int], target: int) -> int:
+        diff_min, n = float('inf'), len(nums)
+        nums.sort()
+
+        for i in range(n):
+            l, r = i + 1, n - 1
+            while l < r:
+                threesum = nums[i] + nums[l] + nums[r]
+                if threesum < target: l += 1
+                else: r -= 1
+
+                diff = target - threesum
+                if diff == 0: return threesum
+                if abs(diff) < abs(diff_min):
+                    diff_min = diff
+                    sum_closest = threesum
+
+        return sum_closest
