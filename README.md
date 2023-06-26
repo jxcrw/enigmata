@@ -62,7 +62,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#53-maximum-subarray-solutions">53</a><sub>11</sub></td>
     <td align="center"><a href="#56-merge-intervals-solutions">56</a><sub>14</sub></td>
     <td align="center"><a href="#57-insert-interval-solutions-">57</a><sub>7</sub></td>
-    <td align="center"><a href="#61-rotate-list-solutions">61</a><sub>10</sub></td>
+    <td align="center"><a href="#61-rotate-list-solutions">61</a><sub>11</sub></td>
     <td align="center"><a href="#75-sort-colors-solutions">75</a><sub>11</sub></td>
     <td align="center"><a href="#76-minimum-window-substring-solutions">76</a><sub>13</sub></td>
     <td align="center"><a href="#78-subsets-solutions-">78</a><sub>1</sub></td>
@@ -120,7 +120,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#451-sort-characters-by-frequency-solutions-">451</a><sub>4</sub></td>
     <td align="center"><a href="#457-circular-array-loop-solutions">457</a><sub>10</sub></td>
     <td align="center"><a href="#476-number-complement-solutions-">476</a><sub>1</sub></td>
-    <td align="center"><a href="#543-diameter-of-binary-tree-solutions">543</a><sub>6</sub></td>
+    <td align="center"><a href="#543-diameter-of-binary-tree-solutions">543</a><sub>7</sub></td>
     <td align="center"><a href="#560-subarray-sum-equals-k-solutions">560</a><sub>6</sub></td>
   </tr>
   <tr>
@@ -515,6 +515,7 @@ DP/Kadane's algorithm. Very similar to [121. Best Time to Buy and Sell Stock](ht
 | 2022/11/13 | 0:09  | 1:46 | 1:55  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2022-11-13_2.py) |
 | 2022/11/20 | 1:04  | 2:08 | 3:12  |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2022-11-20.py)  |
 | 2023/06/25 | 0:56  | 0:48 |   ∞   |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2023-06-25.py)  |
+| 2023/06/27 | 0:21  | 2:02 | 2:23  |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2023-06-27.py)  |
 
 #### [75. Sort Colors](https://leetcode.com/problems/sort-colors/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/75.%20Sort%20Colors))
 
@@ -1153,6 +1154,7 @@ Identical to [1009. Complement of Base 10 Integer](https://leetcode.com/problems
 | 2022/10/26 | 1:02  | 1:55 | 2:57  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2022-10-26.py) |
 | 2023/06/22 | 2:03  | 2:44 |   ∞   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2023-06-22.py) |
 | 2023/06/23 | 0:20  | 1:31 | 1:50  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2023-06-23.py) |
+| 2023/06/27 | 0:09  | 1:43 | 1:52  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/543.%20Diameter%20of%20Binary%20Tree/diameter_2023-06-27.py) |
 
 #### [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/560.%20Subarray%20Sum%20Equals%20K))
 
