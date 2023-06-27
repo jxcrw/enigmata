@@ -78,7 +78,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#113-path-sum-ii-solutions">113</a><sub>4</sub></td>
     <td align="center"><a href="#116-populating-next-right-pointers-in-each-node-solutions-">116</a><sub>7</sub></td>
     <td align="center"><a href="#121-best-time-to-buy-and-sell-stock-solutions">121</a><sub>9</sub></td>
-    <td align="center"><a href="#124-binary-tree-maximum-path-sum-solutions">124</a><sub>6</sub></td>
+    <td align="center"><a href="#124-binary-tree-maximum-path-sum-solutions">124</a><sub>7</sub></td>
     <td align="center"><a href="#129-sum-root-to-leaf-numbers-solutions-">129</a><sub>6</sub></td>
     <td align="center"><a href="#136-single-number-solutions">136</a><sub>5</sub></td>
     <td align="center"><a href="#137-single-number-ii-solutions">137</a><sub>5</sub></td>
@@ -683,6 +683,7 @@ BFS is better than DFS here because if the tree is unbalanced, we find the min d
 | 2022/10/28 | 0:25  | 2:57 | 3:22  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/124.%20Binary%20Tree%20Maximum%20Path%20Sum/max_pathsum_2022-10-28.py) |
 | 2023/06/23 | 0:56  | 0:09 |   ∞   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/124.%20Binary%20Tree%20Maximum%20Path%20Sum/max_pathsum_2023-06-23.py) |
 | 2023/06/24 | 0:14  | 1:37 | 1:51  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/124.%20Binary%20Tree%20Maximum%20Path%20Sum/max_pathsum_2023-06-24.py) |
+| 2023/06/28 | 0:09  | 2:53 | 3:02  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/124.%20Binary%20Tree%20Maximum%20Path%20Sum/max_pathsum_2023-06-28.py) |
 
 #### [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/129.%20Sum%20Root%20to%20Leaf%20Numbers)) 😎
 Very similar to [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/).
