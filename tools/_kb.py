@@ -1001,3 +1001,18 @@ class Solution44_1:
                     sum_closest = threesum
 
         return sum_closest
+
+
+# 45: 2023/06/28
+class Solution45:
+    def num_subarray_product_less_than_k(self, nums: list[int], k: int) -> int:
+        if k <= 1: return 0
+        count, product = 0, 1
+        l = 0
+        for r in range(len(nums)):
+            product *= nums[r]
+            while product >= k:
+                product /= nums[l]
+                l += 1
+            count += r - l + 1
+        return count
