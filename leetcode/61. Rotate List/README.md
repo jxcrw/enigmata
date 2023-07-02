@@ -13,3 +13,4 @@
 | 2022/11/20 | 1:04  | 2:08 | 3:12  |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2022-11-20.py)  |
 | 2023/06/25 | 0:56  | 0:48 |   ∞   |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2023-06-25.py)  |
 | 2023/06/27 | 0:21  | 2:02 | 2:23  |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2023-06-27.py)  |
+| 2023/07/01 | 0:08  | 1:10 | 1:17  |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2023-07-01.py)  |

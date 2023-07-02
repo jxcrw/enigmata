@@ -62,7 +62,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#53-maximum-subarray-solutions">53</a><sub>11</sub></td>
     <td align="center"><a href="#56-merge-intervals-solutions">56</a><sub>14</sub></td>
     <td align="center"><a href="#57-insert-interval-solutions-">57</a><sub>7</sub></td>
-    <td align="center"><a href="#61-rotate-list-solutions">61</a><sub>11</sub></td>
+    <td align="center"><a href="#61-rotate-list-solutions">61</a><sub>12</sub></td>
     <td align="center"><a href="#75-sort-colors-solutions">75</a><sub>11</sub></td>
     <td align="center"><a href="#76-minimum-window-substring-solutions">76</a><sub>13</sub></td>
     <td align="center"><a href="#78-subsets-solutions-">78</a><sub>1</sub></td>
@@ -113,7 +113,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#392-is-subsequence-solutions-">392</a><sub>5</sub></td>
     <td align="center"><a href="#417-pacific-atlantic-water-flow-solutions">417</a><sub>9</sub></td>
     <td align="center"><a href="#424-longest-repeating-character-replacement-solutions">424</a><sub>8</sub></td>
-    <td align="center"><a href="#437-path-sum-iii-solutions">437</a><sub>9</sub></td>
+    <td align="center"><a href="#437-path-sum-iii-solutions">437</a><sub>10</sub></td>
     <td align="center"><a href="#438-find-all-anagrams-in-a-string-solutions-">438</a><sub>7</sub></td>
     <td align="center"><a href="#442-find-all-duplicates-in-an-array-solutions-">442</a><sub>6</sub></td>
     <td align="center"><a href="#448-find-all-numbers-disappeared-in-an-array-solutions-">448</a><sub>6</sub></td>
@@ -138,7 +138,7 @@ n = times solved. I use [Anki](https://apps.ankiweb.net/) to schedule daily revi
     <td align="center"><a href="#767-reorganize-string-solutions">767</a><sub>4</sub></td>
     <td align="center"><a href="#832-flipping-an-image-solutions-">832</a><sub>7</sub></td>
     <td align="center"><a href="#844-backspace-string-compare-solutions">844</a><sub>7</sub></td>
-    <td align="center"><a href="#852-peak-index-in-a-mountain-array-solutions-">852</a><sub>5</sub></td>
+    <td align="center"><a href="#852-peak-index-in-a-mountain-array-solutions-">852</a><sub>6</sub></td>
   </tr>
   <tr>
     <td align="center"><a href="#876-middle-of-the-linked-list-solutions-">876</a><sub>5</sub></td>
@@ -516,6 +516,7 @@ DP/Kadane's algorithm. Very similar to [121. Best Time to Buy and Sell Stock](ht
 | 2022/11/20 | 1:04  | 2:08 | 3:12  |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2022-11-20.py)  |
 | 2023/06/25 | 0:56  | 0:48 |   ∞   |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2023-06-25.py)  |
 | 2023/06/27 | 0:21  | 2:02 | 2:23  |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2023-06-27.py)  |
+| 2023/07/01 | 0:08  | 1:10 | 1:17  |  [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/61.%20Rotate%20List/rotate_list_2023-07-01.py)  |
 
 #### [75. Sort Colors](https://leetcode.com/problems/sort-colors/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/75.%20Sort%20Colors))
 
@@ -1077,6 +1078,7 @@ Nearly identical to [424. Longest Repeating Character Replacement](https://leetc
 | 2022/11/20 | 1:47  | 5:58 | 7:45  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/437.%20Path%20Sum%20III/path_sum_iii_2022-11-20.py) |
 | 2023/06/25 | 0:49  | 0:35 |   ∞   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/437.%20Path%20Sum%20III/path_sum_iii_2023-06-25.py) |
 | 2023/06/25 | 0:14  | 2:46 | 3:00  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/437.%20Path%20Sum%20III/path_sum_iii_2023-06-26.py) |
+| 2023/07/01 | 0:22  | 3:35 | 3:58  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/437.%20Path%20Sum%20III/path_sum_iii_2023-07-01.py) |
 
 #### [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/438.%20Find%20All%20Anagrams%20in%20a%20String/)) 😎
 Very similar to [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/). Glad I put in the time battling with that one.
@@ -1337,6 +1339,7 @@ Battled for this one. Took 8+ hours to get a solution I was happy with. Note tha
 | 2022/10/30 | 0:16  | 0:50 | 1:06  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/852.%20Peak%20Index%20in%20a%20Mountain%20Array/peak_2022-10-30.py) |
 | 2023/06/24 | 2:43  | 3:24 |   ∞   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/852.%20Peak%20Index%20in%20a%20Mountain%20Array/peak_2023-06-24.py) |
 | 2023/06/25 | 0:14  | 0:50 | 1:04  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/852.%20Peak%20Index%20in%20a%20Mountain%20Array/peak_2023-06-25.py) |
+| 2023/07/01 | 0:10  | 0:42 | 0:52  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/852.%20Peak%20Index%20in%20a%20Mountain%20Array/peak_2023-07-01.py) |
 
 #### [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) ([solutions](https://github.com/jxcrw/enigmata/blob/main/leetcode/876.%20Middle%20of%20the%20Linked%20List)) 😎
 

@@ -7,3 +7,4 @@
 | 2022/10/30 | 0:16  | 0:50 | 1:06  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/852.%20Peak%20Index%20in%20a%20Mountain%20Array/peak_2022-10-30.py) |
 | 2023/06/24 | 2:43  | 3:24 |   ∞   | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/852.%20Peak%20Index%20in%20a%20Mountain%20Array/peak_2023-06-24.py) |
 | 2023/06/25 | 0:14  | 0:50 | 1:04  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/852.%20Peak%20Index%20in%20a%20Mountain%20Array/peak_2023-06-25.py) |
+| 2023/07/01 | 0:10  | 0:42 | 0:52  | [Python](https://github.com/jxcrw/enigmata/blob/main/leetcode/852.%20Peak%20Index%20in%20a%20Mountain%20Array/peak_2023-07-01.py) |
