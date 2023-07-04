@@ -1016,3 +1016,29 @@ class Solution45:
                 l += 1
             count += r - l + 1
         return count
+
+
+# 46: 2023/07/04
+class Solution:
+    def threesum(self, nums: list[int]) -> list[list[int]]:
+        triplets = []
+        nums.sort()
+        for i in range(len(nums)):
+            if nums[i] > 0: break
+            elif i == 0 or nums[i] != nums[i - 1]:
+                self._twosum(nums, i, triplets)
+        return triplets
+
+    def _twosum(self, nums: list[int], i: int, triplets: list[list[int]]) -> None:
+        l, r = i + 1, len(nums) - 1
+        while l < r:
+            triplet = [nums[i], nums[l], nums[r]]
+            total = sum(triplet)
+            if total < 0: l += 1
+            elif total > 0: r -= 1
+            else:
+                triplets.append(triplet)
+                l += 1
+                r -= 1
+                while l < r and nums[l] == nums[l - 1]:
+                    l += 1
