@@ -27,6 +27,7 @@ So it is that if I am to continue my journey, I must first master these dark way
 ### Stats
 |  Date   | Total Solved / Available (%) |  Rank   |
 |:-------:|:----------------------------:|:-------:|
+| 2023 Q4 |      105 / 2906 (3.6%)       | 692,596 |
 | 2023 Q3 |      105 / 2763 (3.8%)       | 626,948 |
 | 2023 Q2 |      105 / 2763 (3.8%)       | 626,948 |
 | 2023 Q1 |      104 / 2552 (4.1%)       | 560,441 |
