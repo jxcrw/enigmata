@@ -1,7 +1,7 @@
 # Enigmata
 Much of the Codex is firewalled behind a polymorphic security barrier I now know to be the Enigmata - algorithmic mind puzzles, stress tests of the psyche. Rites of passage, perhaps, for those who would dare to seek deeper.
 
-So it is that if I am to continue my journey, I must first master these dark ways. I must master the Enigmata:
+So it is that if I am to master my journey, I must first master these dark arts. I must master the Enigmata:
 
 ```
 ├── aoc         Advent of Code solutions and notes.
